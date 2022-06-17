@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Credit/Loan Calculator</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width-device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CreditCSS.css">
+</head>
+
+<body>
+    <h1 class="title">Credit / Loan Calculator </h1>
+    <label class="labels label1" for="CreditAmount">Credit Amount</label>
+    <input id="Textbox1" class="Text text1" type="text" id="CreditAmount"/>
+    <br>
+    <label class="labels label2" for="InterestRate">Interest Rate</label>
+    <input id="Textbox2" class="Text text2" type="text" id="InterestRate"/>
+    <br>
+    <label class="labels label3" for="Years">Years</label>
+    <input id="Textbox3" class="Text text3" type="text" id="Years"/>
+    <br>
+    <input class="buttons buttonCalculate" type="submit" value="Calculate" onclick="Calculate()">
+    <input class="buttons buttonReset" type="submit" value="Reset" onclick="ClearAll()">
+    <br>
+    <label class="labels label4" for="TotalInterest">Total Interest</label>
+    <input id="Textbox4" class="Text text4" type="text" id="TotalInterest" readonly/>
+    <br>
+    <label class="labels label5" for="TotalToReturn">Total To Return</label>
+    <input id="Textbox5" class="Text text5" type="text" id="TotalToReturn" readonly/>
+    <br>
+    <label class="labels label6" for="MonthlyReturn">Monthly Return</label>
+    <input id="Textbox6" class="Text text6" type="text" id="MonthlyReturn" readonly/>
+</body>
+<script src="CreditJAVASCRIPT.js"></script>
+</html>
