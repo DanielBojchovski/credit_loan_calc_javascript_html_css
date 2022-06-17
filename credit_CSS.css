@@ -1,0 +1,94 @@
+body {
+    background-color:darkcyan
+}
+.title{
+    position: absolute;
+    top: 10px;
+    right: 445px;
+}
+.Text{
+    color:white;
+    background:dimgray;
+    font-size: xx-large;
+    text-align: center;
+}
+.labels{
+    font-size: xx-large;
+}
+.buttons{
+    font-size: xx-large;
+}
+.Text.text1{
+    position: absolute;
+    top: 75px;
+    right: 425px;
+}
+.Text.text2{
+    position: absolute;
+    top: 125px;
+    right: 425px;
+}
+.Text.text3{
+    position: absolute;
+    top: 175px;
+    right: 425px;
+}
+.buttons.buttonCalculate{
+    background:khaki;
+    width: 195px;
+    position: absolute;
+    top: 225px;
+    right: 628px;
+}
+.buttons.buttonReset{
+    background:khaki;
+    width: 195px;
+    position: absolute;
+    top: 225px;
+    right: 425px;
+}
+.Text.text4{
+    position: absolute;
+    top: 275px;
+    right: 425px;
+}
+.Text.text5{
+    position: absolute;
+    top: 325px;
+    right: 425px;
+}
+.Text.text6{
+    position: absolute;
+    top: 375px;
+    right: 425px;
+}
+.labels.label1{
+    position: absolute;
+    top: 75px;
+    right: 840px;
+}
+.labels.label2{
+    position: absolute;
+    top: 125px;
+    right: 840px;
+}
+.labels.label3{
+    position: absolute;
+    top: 175px;
+    right: 840px;
+}
+.labels.label4{
+    position: absolute;
+    top: 275px;
+    right: 840px;
+}
+.labels.label5{
+    position: absolute;
+    top: 325px;
+    right: 840px;
+}
+.labels.label6{
+    position: absolute;
+    top: 375px;
+    right: 840px;
+}
